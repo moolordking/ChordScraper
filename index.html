@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bin/style.css" />
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+	<title>ChordScraped</title>
+</head>
+<body>
+	<center>
+		<textarea id="IN" onkeyup="update_out();" placeholder="Lyrics with chords indicated between two angle brackets, e.g. <<Em>>"></textarea>
+<!-- [Verse 1]
+<<D>>I once had a girl, or should I say, <<C>>she once <<G>>had <<D>>me
+<<D>>She showed me her room, isn't it good, <<C>>Norweg<<G>>ian <<D>>Wood
+[Middle 1]
+She <<Dm>> asked me to stay and she told me to sit any<<G...>>where
+So<<Dm>> I looked around and I noticed there wasn't a<<Em>> Chair<<A>>
+[Verse 2]
+<<D>>I sat on a rug biding my time, <<C>>drinking <<G>>her <<D>>wine
+<<D>>We talked until two and then she said, <<C>>"It's time <<G>>for <<D>>bed"
+[Middle 2]
+She <<Dm>>told me she worked in the morning and started to <<G...>>laugh
+I <<Dm>>told her I didn't and crawled off to sleep in the <<Em>>bath<<A>>
+[Verse 3]
+<<D>>And when I awoke I was alone, <<C>>this bird <<G>>had <<D>>flown
+<<D>>So I lit a fire, isn't it good <<C>>Norweg<<G>>ian <<D>>wood?</textarea> -->
+		<button   id="SHOWHIDE" onclick="show_hide();">&#8645;</button>
+		<button   id="DOWNLOAD" onclick="download_image();">&#8595;</button>
+		<div      id="OUT"></div><br>
+
+		<script src="bin/scraped.js"></script>
+		<script src="bin/main.js"></script>
+	</center>
+</body>
+</html>

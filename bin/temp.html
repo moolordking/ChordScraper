@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+	<title>Chorder</title>
+</head>
+<body>
+	<center>
+		<textarea id="IN" onkeyup="update_out();" style="display: none;" placeholder="Lyrics with chords indicated between two angle brackets, e.g. <<Em>>">[as by stevie wonder]
+        <<Bmaj7>>    <<B7>>  Do d<<Emaj7>>o-do-do(x2) do  do]
+        As <<Bmaj7>>around the sun <<B7>>the earth knows <<Emaj7>>she's revolving]
+        And the<<Bmaj7>> rosebuds know to bloom in <<Amaj7>>early May]
+        Just as<<Bmaj7>> hate knows love's <<B7>>the cure]
+        You can<<Emaj7>> rest your mind assure]
+        That <<G#m>>I'll be lovi<<A#m>>n<<D#7>>g<<G#m7>> <<G#m6>>y<<C#m7>>o<<F#7>>u always]
+        That <<G#m>>I'll be lovi<<A#m>>n<<D#7>>g(<<G#m>>) you  always]
+        <<G#m>>  (Until t<<D#7>>/<<A#>>he rainbow bur<<B>>ns the stars o<<C#>>ut in the sky)]
+        <<G#m>>  (Until <<D#7>>/<<A#>>the ocean<<B>> covers every <<C#>>mountain high)]
+        <<G#m>>  (Until <<D#7>>/<<A#>>the dolphin fl<<B>>ies and parrot<<C#>>s live at sea)]
+        <<G#m>>Always   <<D#7/A#>>             <<B>>           [1:      <<F9>>; to bridge]  [others: <<C#>>]
+        Always  (Until we dream of life and life be[others:c<<C#>>]omes a dream)]
+        <<Emaj7>>      Did you know that true love asks<<Bmaj7>> for nothing]
+        <<Emaj7>>      Her acceptance is the w<<Dmaj9>>ay we came]
+        <<Emaj7>>      Did you know that life has <<Bmaj7>>given love a guarantee]
+        To <<C#m7>>last through forever and ano<<A#m7>>/<<D#>>t<<D#7>>h<<C#m9>>e<<F#13>>r day            (just)]
+</textarea>
+		<!-- <button   id="SHOWHIDE" onclick="show_hide();">&#8645;</button> -->
+		<button   id="DOWNLOAD" onclick="download_image();">&#8595;</button>
+		<div      id="OUT"></div><br>
+
+		<script src="scraped.js"></script>
+		<script src="main.js"></script>
+	</center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+	<title>Chorder</title>
+</head>
+<body>
+	<center>
+		<textarea id="IN" onkeyup="update_out();" style="display: none;" placeholder="Lyrics with chords indicated between two angle brackets, e.g. <<Em>>">@@@</textarea>
+		<!-- <button   id="SHOWHIDE" onclick="show_hide();">&#8645;</button> -->
+		<button   id="DOWNLOAD" onclick="download_image();">&#8595;</button>
+		<div      id="OUT"></div><br>
+
+		<script src="scraped.js"></script>
+		<script src="main.js"></script>
+	</center>
+</body>
+</html>
